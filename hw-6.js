@@ -1,12 +1,12 @@
 let numOrStr = prompt('input number or string');
 console.log(numOrStr);
 
-switch (true) {
-    case numOrStr === null:
+switch (numOrStr) {
+    case null:
         console.log('ви скасували');
         break;
 
-    case numOrStr.trim() === '':
+    case '':
         console.log('Empty String');
         break;
 
@@ -16,5 +16,4 @@ switch (true) {
 
     default:
         console.log('OK!');
-
 }
