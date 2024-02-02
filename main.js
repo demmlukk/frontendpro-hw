@@ -1,10 +1,7 @@
-function removeElement (arr, el) {
-    let index = arr.indexOf(el);
-    arr.splice(index, 1);
+function removeElement(array, item) {
+    for (let i = array.length - 1; i >= 0; i--) {
+        if (array[i] === item) {
+            array.splice(i, 1);
+        }
+    }
 }
-
-let array = [1, 2, 3, 4, 5, 6, 7];
-removeElement(array, 5);
-array.splice(4, 1);
-
-console.log(array);
