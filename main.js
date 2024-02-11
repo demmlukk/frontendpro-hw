@@ -40,7 +40,12 @@ function calculateAverageOfNumbers(array) {
     }
  }
 
+const x = prompt("Введіть перше число:");
+const znak = prompt("Введіть знак операції (+, -, *, /, %, ^):");
+const y = prompt("Введіть друге число:");
 
+const result = doMath(x, znak, y);
+console.log(result);
 
 
  // 3.
