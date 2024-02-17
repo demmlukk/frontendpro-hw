@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000;
+}
+
+.container {
+    position: relative;
+}
+
+#textField {
+    width: 500px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgba(255, 210, 227, 0.8);
+    border: #fffff;
+    border-radius: 20px;
+    box-shadow: 0 0 35px rgba(255, 0, 126, 0.8); /* неоновый эффект */
+    transition: all 1s;
+}
+
+img {
+    width: 250px;
+    position: absolute;
+    margin: 50px 0 0 150px;
+
+}
+
