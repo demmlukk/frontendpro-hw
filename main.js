@@ -9,7 +9,6 @@ console.log(result);
 //2
 let numberInput = prompt("Введіть п'ятизначне число:");
 let number = +(numberInput);
-
 let digits = number.toString().split("").join(" ");
 
 console.log(digits);
