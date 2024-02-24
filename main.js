@@ -6,7 +6,6 @@ let input3 = prompt("Введіть третій рядок:");
 let result = input2 + " " + input3 + " " + input1;
 console.log(result);
 
-
 //2
 let numberInput = prompt("Введіть п'ятизначне число:");
 let number = +(numberInput);
