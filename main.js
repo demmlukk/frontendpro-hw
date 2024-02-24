@@ -1,4 +1,5 @@
 //1
+let count = 23
 for (let i = 20; i <= 30; i += 0.5) {
     console.log(i);
 }
@@ -11,7 +12,7 @@ for (let dollars = 10; dollars <= 100; dollars += 10) {
 }
 
 //3
-const N = 100;
+let N = 100;
 for (let i = 1; i <= 100; i++) {
     let square = i * i;
     if (square <= N) {
@@ -32,7 +33,7 @@ function isPrime(number) {
     return true;
 }
 
-const numToCheck = 23;
+let numToCheck = 23;
 if (isPrime(numToCheck)) {
     console.log(numToCheck + " - просте число");
 } else {
