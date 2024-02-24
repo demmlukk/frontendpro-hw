@@ -17,16 +17,43 @@ body {
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.8);
     color: rgba(255, 210, 227, 0.8);
-    border: #fffff;
+    border-color: #fffff;
     border-radius: 20px;
-    box-shadow: 0 0 35px rgba(255, 0, 126, 0.8); /* неоновый эффект */
-    transition: all 1s;
+    box-shadow: 0 0 35px rgba(255, 0, 126, 0.8);
 }
 
-img {
-    width: 250px;
+input:focus {
+    outline: solid 0.5px #fff;
+}
+
+#heart {
+    display: none;
     position: absolute;
-    margin: 50px 0 0 150px;
-
+    width:100px;
+    height:90px;
+    margin: 50px 0 0 200px;
 }
+#heart::before, #heart::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 52px;
+    height: 80px;
+    border-radius: 50px 50px 0 0;
+    background: rgb(255, 0, 126);
+    box-shadow: 0 0 35px rgba(255, 0, 126, 0.8);
+}
+
+#heart::before {
+    left: 50px;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+
+#heart::after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+}
+
 
