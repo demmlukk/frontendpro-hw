@@ -1,0 +1,27 @@
+body {
+    background-color: #000;
+}
+#voting-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.smiley-container {
+    text-align: center;
+    margin-right: 10px;
+}
+
+.smiley {
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.vote-count {
+    color: white;
+    margin-top: 5px;
+}
+
+
+
